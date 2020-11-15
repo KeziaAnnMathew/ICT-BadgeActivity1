@@ -1,0 +1,86 @@
+{
+    "list":[
+        {
+            "slno":"01",
+            "name":"Atta",
+            "quantity":"1",
+            "unit":"Kg",
+            "department":"Flour",
+            "notes":"Buy Ashirvaad atta"
+        },
+        {
+            "slno":"02",
+            "name":"Tomato",
+            "quantity":"0.5",
+            "unit":"Kg",
+            "department":"Vegetable",
+            "notes":"Pick ripened ones"
+        },
+        {
+            "slno":"03",
+            "name":"Soap",
+            "quantity":"3",
+            "unit":"Packet",
+            "department":"Household",
+            "notes":"Lux"
+        },
+        {
+            "slno":"04",
+            "name":"Washing Powder",
+            "quantity":"1",
+            "unit":"Kg",
+            "department":"Household",
+            "notes":"Ariel"
+        },
+        {
+            "slno":"05",
+            "name":"Onion",
+            "quantity":"1",
+            "unit":"Kg",
+            "department":"Vegetable",
+            "notes":"Check quality"
+        },
+        {
+            "slno":"06",
+            "name":"Maida",
+            "quantity":"1",
+            "unit":"Kg",
+            "department":"Flour",
+            "notes":"Buy Elite"
+        },
+        {
+            "slno":"07",
+            "name":"Salt",
+            "quantity":"1",
+            "unit":"Packet",
+            "department":"Kitchen Items",
+            "notes":"Iodized salt"
+        },
+        {
+            "slno":"08",
+            "name":"Orange",
+            "quantity":"0.5",
+            "unit":"Kg",
+            "department":"Fruits",
+            "notes":"Only if Fresh"
+        },
+        {
+            "slno":"09",
+            "name":"Garlic",
+            "quantity":"200",
+            "unit":"Grams",
+            "department":"Vegetable",
+            "notes":"Check quality"
+        },
+        {
+            "slno":"10",
+            "name":"Eggs",
+            "quantity":"20",
+            "unit":"Number",
+            "department":"Kitchen Items",
+            "notes":"Buy Packed set"
+        }
+
+
+    ]
+}

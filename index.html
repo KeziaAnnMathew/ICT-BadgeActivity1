@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="grocery.css">
+</head>
+<body>
+    <div class="section">
+        <div class="table">
+            <div class="content">
+                <h2>GROCERY LIST</h2>
+                <br>
+                <table class=headtable>
+                    <thead>
+                        <tr>
+                            <th>Status</th>
+                            <th>Slno</th>
+                            <th>Name</th>
+                            <th>Quantity</th>
+                            <th>Unit</th>
+                            <th>Department</th>
+                            <th>Notes</th>
+                            <th>Delete</th>
+                        </tr>
+                    </thead>
+                    <tbody id="contents"></tbody>
+                </table>
+            </div>
+        </div>
+     <div class="form container">
+        <h4>ADD NEW ITEMS</h4>
+        <form id="item-form">
+            <div class="row">
+                <div class="three columns">
+                    <label for="Num">Sl.No</label>                
+                    <input type="number" id="slno" class="twelve columns">
+                </div>
+                <div class="three columns">
+                    <label for="name">Name</label>                
+                    <input type="text" id="name" class="twelve columns">
+                </div>
+                <div class="three columns">
+                    <label for="quantity">Quantity</label>                
+                    <input type="number" id="quantity" class="twelve columns">
+                </div> 
+                <div class="three columns">
+                    <label for="unit">Unit</label>                
+                    <input type="text" id="unit" class="twelve columns">
+                </div>
+            </div>
+           <div class="row">
+                <div class="three columns">
+                    <label for="department">Department</label>                
+                    <input type="text" id="department" class="twelve columns">
+                </div> 
+                <div class="nine columns">
+                    <label for="note">Notes</label>                
+                    <input type="text" id="notes" class="twelve columns">
+                </div>
+           </div>
+            <button type="submit" class="button-primary u-full-width">Add</button>
+        </form>
+     </div>   
+    </div>
+    <script src="grocery.js"></script>
+</body>
+</html>
