@@ -70,6 +70,7 @@ class UI{
         <td><a href="#">X</a> </td>
         `
         list.appendChild(row);
+        alert("Item added Succesfully");
     }
     clearFields(){
         document.getElementById('name').value='';
@@ -82,9 +83,9 @@ class UI{
 }
 document.getElementById('item-form').addEventListener('submit',function(e){
     //////adding value from form
-    const name=document.getElementById('name').value,
-           slno=document.getElementById('slno').value,
-           quantity=document.getElementById('quantity').value,
+    const  slno=document.getElementById('slno').value,
+            name=document.getElementById('name').value,
+            quantity=document.getElementById('quantity').value,
            unit=document.getElementById('unit').value,
            department=document.getElementById('department').value,
            notes=document.getElementById('notes').value;
@@ -99,7 +100,6 @@ document.getElementById('item-form').addEventListener('submit',function(e){
     else{
         const ui=new UI();
         ui.addItemToList(item);
-        //clear field(calling prototype function of UI)
         ui.clearFields();
     }
     
